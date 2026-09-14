@@ -55,3 +55,42 @@ header a {
     text-decoration: none;
     color: black;
 }
+
+
+#hero {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    align-items: center;
+    padding: 5rem 6rem;
+    /* background-color: aqua; */
+}
+
+#hero .hero-profile {
+    height: 25rem;
+    width: 25rem;
+    /* background-color: red; */
+}
+
+#hero .hero-profile img {
+    height: 100%;
+    width: 100%;
+}
+
+#hero .hero-text {
+    /* margin-right: -2rem; */
+    /* background-color: cornflowerblue; */
+}
+
+#hero .hero-text h2 {
+    font-size: 3rem;
+    /* color: #695347; */
+    color: #5e7a53;
+}
+
+#hero .hero-text h1 {
+    font-size: 6rem;
+    color: #f7a0b8;
+}
