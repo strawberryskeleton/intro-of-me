@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+
+:root {
+    font-family: "Gaegu", sans-serif;
+}
 
 *,
 *::before,
@@ -5,4 +10,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: #faf5ec;
+}
+
+
+header {
+    width: 100%;
+    height: 5rem;
+    /* background-color: cornflowerblue; */
+    border: 2px solid #f7a0b8;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.5rem;
+}
+
+header .logo {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+header .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.2rem;
+}
+
+header nav .nav-item {
+    color: #f7a0b8;
+    font-size: 1.35rem;
+    text-decoration: underline wavy 1.5px #f7a0b8;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
 }
