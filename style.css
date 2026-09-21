@@ -15,7 +15,7 @@
 body {
     background-color: #faf5ec;
     width: 100vw;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -138,11 +138,15 @@ header a {
     padding: 4rem;
 }
 
+#skills h1 {
+    color: #f7a0b8;
+}
+
 #skills .skills-row {
     width: 65%;
     margin: 0 auto;
     margin-top: 5rem;
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     
     padding: 1rem;
     overflow: hidden;
@@ -170,18 +174,63 @@ header a {
     gap: 1rem;
     /* padding-right: 1rem; */
 
-    animation: scroll 20s linear infinite;
+    /* animation: scroll 20s linear infinite; */
 }
 
-#skills .skills-row:hover ul {
+#skills .skills-row.row1 ul {
+    animation: scroll-1 20s linear infinite;
+}
+
+#skills .skills-row.row2 ul {
+    transform: translateX(calc(-100% - 1rem));
+    animation: scroll-2 20s linear infinite;
+}
+
+#skills .skills-row.row1:hover ul {
     animation-play-state: paused;
 }
 
-@keyframes scroll {
+#skills .skills-row.row2:hover ul {
+    animation-play-state: paused;
+}
+
+
+@keyframes scroll-1 {
+    from {
+        transform: translateX(0);
+    }
     to {
         transform: translateX(calc(-100% - 1rem));
     }
 }
+
+@keyframes scroll-2 {
+    from {
+        transform: translateX(calc(-100% - 1rem));
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+#skills .skills-row ul li {
+    width: 10rem;
+    height: 10rem;
+    background-color: #f4ead9;
+    /* background-color: #f5ecdd; */
+    /* background-color: #e6829f; */
+    border-radius: 5px;
+    padding: 2rem;
+    color: #f7a0b8;
+
+}
+
+#skills .skills-row ul li img {
+    /* fill: #5e7a53;    DOES NOT WORK --> EDIT IN SVg FILE!!!!!! */
+    height: 100%;
+    width: 100%;
+}
+
 
 /* blur code (blur the edges of the wrapper 
 
