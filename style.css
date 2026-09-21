@@ -273,11 +273,18 @@ mask-image: linear-gradient(
     text-align:center;
     text-wrap: pretty;
     font-size: 1.5rem;
+    color: #e6829f;
+}
+
+#project-grid .project h2 {
+    color: #cf476d;
+    text-decoration: underline wavy 2px #cf476d;
 }
 
 #project-grid .project a {
-    color: #f4ead9;
-    text-decoration: underline wavy 2px #f4ead9;
+    color: inherit;
+    text-decoration: none;
+    /* text-decoration: underline wavy 2px #f4ead9; */
 }
 
 /*👉#project-grid .project img {
@@ -292,19 +299,28 @@ mask-image: linear-gradient(
 #project-grid .project1 {
     grid-column: span 2 / span 2;
     grid-row: span 2 / span 2;
-    background-color: red;
+    /* background-color: red; */
+
+    background: url('./assets/projects-img/bg1.jpg');
+    background-size: cover;
 }
 
 #project-grid .project2 {
     grid-column: span 3 / span 3;
     grid-column-start: 3;
-    background-color: orange;
+    /* background-color: orange; */
+
+    background: url('./assets/projects-img/bg2.jpg');
+    background-size: cover;
 }
 
 #project-grid .project3 {
     grid-column-start: 3;
     grid-row-start: 2;
-    background-color: yellow;
+    /* background-color: yellow; */
+
+    background: url('./assets/projects-img/bg6.jpg');
+    background-size: cover;
 }
 
 #project-grid .project4 {
@@ -312,30 +328,39 @@ mask-image: linear-gradient(
     grid-row: span 2 / span 2;
     grid-column-start: 4;
     grid-row-start: 2;
-    background-color: green;
+    /* background-color: green; */
+
+    background: url('./assets/./projects-img/bg3.jpg');
+    background-size: cover;
 }
 
 #project-grid .project5 {
     grid-row: span 2 / span 2;
     grid-row-start: 3;
-    background-color: skyblue;
+    /* background-color: skyblue; */
 
-    /*👉background: url('./assets/projects-img/project5.jpg');
-    background-size: cover;👈*/
+    background: url('./assets/projects-img/bg7.jpg');
+    background-size: cover;
 }
 
 #project-grid .project6 {
     grid-column: span 2 / span 2;
     grid-row: span 2 / span 2;
     grid-row-start: 3;
-    background-color: blue;
+    /* background-color: blue; */
+
+    background: url('./assets/projects-img/bg4.jpg');
+    background-size: cover;
 }
 
 #project-grid .project7 {
     grid-column: span 2 / span 2;
     grid-column-start: 4;
     grid-row-start: 4;
-    background-color: violet;
+    /* background-color: violet; */
+
+    background: url('./assets/projects-img/bg5.jpg');
+    background-size: cover;
 }
 
 
