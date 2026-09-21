@@ -250,6 +250,7 @@ mask-image: linear-gradient(
 #projects {
     /* background-color: aqua; */
     margin-top: 2rem;
+    margin-bottom: 20rem;
 }
 
 #projects #project-grid {
@@ -264,14 +265,28 @@ mask-image: linear-gradient(
 }
 
 #project-grid .project {
-    overflow: hidden;
+    /* overflow: hidden; */
+    padding: 0.75rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    text-wrap: pretty;
+    font-size: 1.5rem;
 }
-#project-grid .project img {
+
+#project-grid .project a {
+    color: #f4ead9;
+    text-decoration: underline wavy 2px #f4ead9;
+}
+
+/*👉#project-grid .project img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    object-position: center 0;
     user-select: none;
-}
+}👈*/
 
 
 #project-grid .project1 {
@@ -325,5 +340,29 @@ mask-image: linear-gradient(
 
 
 .hover-content {
-    width: 240px;
+    width: 25rem;
+    padding: 0.75rem 1rem;
+    background-color: #faf5ec;
+    border: 3.5px solid #f7a0b8;
+    color: #e6829f;
+    font-size: 1.1rem;
+    text-align: justify;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+/*👉.hover-content h2 {
+    font-size: 1.05rem;
+    color: #e6829f;
+    text-decoration: underline wavy 1.5px #f7a0b8;
+    margin-bottom: 0.5rem;
+}👈*/
+
+.hover-content img {
+    max-width: 100%;
+    max-height: 15rem;
 }
