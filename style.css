@@ -428,3 +428,71 @@ mask-image: linear-gradient(
     display: flex;
     align-items: center;
 }
+
+
+footer {
+    width: 100%;
+    background: url('./assets/bg.jpg');
+    margin-top: 5rem;
+    padding: 2rem 8rem;
+
+    display: flex;
+}
+
+footer .logo {
+    width: 45%;
+    /* background-color: #5e7a53; */
+    /* padding: 5rem; */
+}
+
+footer .logo img {
+    /* width: 100%; */
+    height: 15rem;
+}
+
+footer .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+footer .links ul {
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+footer .links ul a {
+    color: #e6829f;
+    text-decoration: underline wavy 1.5px #5e7a53;
+}
+
+footer .nav-links {
+    width: 32.5%;
+    /* background-color: aquamarine; */
+}
+
+footer .social-links {
+    width: 32.5%;
+    /* background-color: chocolate; */
+}
+
+#copyright {
+    width: 100%;
+    height: 2rem;
+    /* padding: 0.5rem; */
+    /* text-align: center; */
+    letter-spacing: 2px;
+    background-color: #f7a0b8;
+    color: #faf5ec;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#copyright a {
+    text-decoration: underline wavy 1.5px #5e7a53;
+    color: #5e7a53;
+    transition: all 0.2s ease-in;
+}
