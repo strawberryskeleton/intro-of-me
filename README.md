@@ -37,6 +37,7 @@ OR
 - a lot of pink theme backgrounds from: pinterest (forgot to save all of their links)
 - profile pic from: pinterest
 - background removing on profile pic: photoroom bg remover
+- skills section icons from: [svg repo](https://www.svgrepo.com/)
 - corner blur effect on skills section marquee from: [codepen link](https://codepen.io/ramzibach-the-styleful/pen/ZENExza)
 - infinite scroll marquee from: [codepen](https://codepen.io/optimisticweb/pen/oNOBwBq)
 - hover tooltip effect in projects section from: [codepen link](https://github.com/subinedge/link-hover-animation/tree/master)
