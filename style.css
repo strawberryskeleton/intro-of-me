@@ -56,6 +56,12 @@ header nav .nav-item {
     color: #e6829f;
     font-size: 1.35rem;
     text-decoration: underline wavy 1.5px #f7a0b8;
+    transition: all 0.25s ease-in;
+}
+
+header nav .nav-item:hover {
+    color: #5e7a53;
+    text-decoration: underline wavy 1.5px #5e7a53;
 }
 
 header a {
@@ -412,11 +418,20 @@ mask-image: linear-gradient(
     width: 7rem;
     height: 7rem;
     background-color: #f4ead9;
-    border: 3px solid #e6829f;
+    border: 3px solid #f7a0b8;
 
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.25s ease-in;
+}
+
+#contact .contact-links .contact-link:hover {
+    border: 3px solid #5e7a53;
+}
+
+#contact .contact-links .contact-link:hover a {
+    color: #5e7a53;
 }
 
 #contact .contact-links .contact-link a {
@@ -427,6 +442,7 @@ mask-image: linear-gradient(
 
     display: flex;
     align-items: center;
+    transition: all 0.25s ease-in;
 }
 
 
@@ -464,6 +480,12 @@ footer .links ul {
 
 footer .links ul a {
     color: #e6829f;
+    text-decoration: underline wavy 1.5px #e6829f;
+    transition: all 0.25s ease-in;
+}
+
+footer .links ul a:hover {
+    color: #5e7a53;
     text-decoration: underline wavy 1.5px #5e7a53;
 }
 
@@ -492,7 +514,12 @@ footer .social-links {
 }
 
 #copyright a {
-    text-decoration: underline wavy 1.5px #5e7a53;
     color: #5e7a53;
+    text-decoration: underline wavy 1.5px #5e7a53;
     transition: all 0.2s ease-in;
+}
+
+#copyright a:hover {
+    color: #cf476d;
+    text-decoration: underline wavy 1.5px #cf476d;
 }
